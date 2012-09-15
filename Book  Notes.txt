@@ -1,0 +1,91 @@
+// This is a semi - TL;DR version of the Producing OSS pdf
+// I will attempt to summarize each paragraph in a few sentences
+// readability is highest priority
+// 
+
+
+--------- CHAPTER 1 -------------
+
+
+--------- CHAPTER 3 -------------
+// Technical Infrastructure
+
+--------- CHAPTER 7 -------------
+// Packaging, Releasing, And Daily Development
+
+--------- CHAPTER 4 ------------
+// Social and Political Infrastructure
+
+	Forkability 
+
+		The potential that a project's source code could be taken to a new project is a powerful force to encourage participants to compromise. Fork is band for everyone.
+
+		Because of forks, there are no true dictators in a FOSS project. The "subjects" can leave as they please and "rule" their own kingdom.
+
+		Some projects tend to lean towards a single leader (ie. L. Torvalds), but the OS licenses ensure no one party has more power to decide how the code can be changed. 
+
+	Benevolent Dicatator
+
+		Final decision-making authority rests with one person, but they do not dictate much. They usually make a move when no conensus can be reached.
+
+		Qualities of a BD: self-restraint, open about mistakes, does not need the best technical skill, persuade others to join, good experience and ability to recognize good design.
+
+		If no candidate for BD is obvious, decision-making should be decentralized.
+
+	Consensus-based Democracy
+
+		As a project gets older, project becomes more open. When a BD steps down and shares responsibility, establish democracy, write constitution. It rarely goes back to BD.
+
+		Two common elements: group works by consensus , a formal voting mechanism to fall back on when consensus doesn't work.
+
+		Consensus means someone proposes that an general decision is agreeable and no one contradicts the assertion. 
+
+		Things to agree about: bug fixes, features, documentation. Someone will usually write a summary of the consensus as a last chance for someone to speak out. Sometimes silence is consent. 
+
+	Version Control Mean You Can Relax
+
+		Most decisions can be easily unmade because of version control, so reason for tone to change before or after commit. 
+
+		For minor changes, a few nods will do. For more significant changes, way a day or two before assuming consensus. 
+
+		There is however a psychological difference between discussing for a potential change and discussing so a change will be undone. Don't be quick.
+
+	When Conensus Cannot Be Reached, Vote
+
+		Before a vote, a set of choices are needed. Many honest participants will summarize the current complex discussion and where disagreement is. Summaries can server as prototype for the ballot sheet. 
+
+		There are many types of voting. Approval voting is each voter can vote for as many of the choices as he wants. 
+
+		conduct votes in public. 
+
+	When To Vote
+
+		The hardest part, when? Voting should be last resort. voting ends discussion and creative thinking. always better to have a compromise. 
+
+		its main advantage is that it finally settles matters so we can move on. the most experienced will never want to vote but explore new solutions or compromise even further. 
+
+		to avoid a vote: say we're not ready to vote, ask for informal show of hands (this will encourage compromise), offer a new solution. 
+
+	Who Votes?
+
+		A sensitive issue because it forces the project to officially recognize individuals. 
+
+		take existing distinction, commit access, and attach voting privilege to it. If someone objects or disrupts a lot of dicussions, this voting power should be considered when considering them to be a committer.
+
+	Polls Versus Votes
+
+		One can use the mailing list to get everyone's vote == poll 
+
+	Vetoes
+
+		some projects allot a veto. a way for developer to put a halt to hasty changes, long enough to further discussion. a veto is somewhere between a strong object and a filibuster. an explanation along with the veto is always needed.
+
+		deal with veto abuse. lead by example and call people out. remind the group that a veto is only binding as long as the group agrees it is. 
+
+	Writing It All Down
+
+		record the conventions and agreements somewhere. refer to relevant threads i nthe mailing list archives. 
+
+		don't try to be comprehensive. no document can capture everything that people need to know. many conventions go unspoken forever. 
+
+		a good way to figure out what to include is to base the document on questions that newcommers ask most often and complains devs make most often. in BD, you can write succession procedures. make clear nothing is permanent, it is to be a living reflection of the group/project's intentions.
